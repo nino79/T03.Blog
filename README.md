@@ -1,4 +1,4 @@
-# Ejercicio 2: NUEVAS PROPIEDADES CSS3.
+# PROPIEDADES CSS3.
 Partiendo de los documentos facilitados en este respositorio, realiza las siguientes actividades:
 1. Aplicar un **borde de `2px de color #4D4D33` al #page**. Modificar los bordes del header para que solo quede el **borde inferior de `1px de color #8C8C8C`** y modificar el *nav* para que solo quede el **borde inferior también de `1px de color #8C8C8C`**. Modificar también el **ancho del `aside` a 200 píxeles.**
 

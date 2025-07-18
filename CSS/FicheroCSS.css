@@ -1,0 +1,115 @@
+/*marcador general*/
+*{
+  margin: 0px; padding: 0px;
+}
+
+/*tipo y tamaño de letra*/
+h1{
+   font: bold 2em verdana, sans-serif;
+ }
+
+h2{
+   font: bold 1.5em verdana, sans-serif;
+ }
+
+h3{
+  font: bold 1em verdana, sans-serif;
+}
+
+/*Centrar todo el cuerpo*/
+body{
+  text-align: center;
+ }
+
+/*cuerpo principal de la pagina*/
+#page{
+  width: 960px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+/*titulo de la pagina*/
+#header {
+  background: #FFFBB9;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+
+/*menu*/
+#nav {
+  background: #CCCCCC;
+  padding: 5px 15px;
+}
+
+#nav li {
+   display: inline;
+   list-style: none;
+   padding: 5px;
+   font: bold 14px verdana, sans-serif;
+   cursor:default;
+ }
+
+ #nav a {
+   text-decoration:none;
+ }
+
+ #nav a:hover {
+   color: white;
+ }
+
+/*organiza el cuerpo ed la pagina*/
+ #content {
+   float: left;
+    width: 660px;
+    margin: 20px;
+ }
+
+#aside {
+  float:left;
+  width:220px;
+  margin:20px0px;
+  padding:20px;
+  background: #CCCCCC;
+}
+
+/*pie de pagina*/
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+/*color de fondo de los bloques*/
+.article {
+  background: #FFFBCC;
+  border: 1px solid #999999;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/*linea visual*/
+.article_header {
+   border-bottom: 1px solid #999999;
+ }
+
+/*aliniazion de texto de los pies de bloque*/
+.article_footer {
+  text-align: right;
+}
+
+/*color de la fecha*/
+.time {
+  color: #999999;
+}
+
+/*bordes de la imagen*/
+.figure {
+  border: 1px double #999999;
+  padding: 5px;
+ }
+
+/*texto de la imagen*/
+.figure .figcaption {
+  font: italic 0.6em verdana, sans-serif;
+}
